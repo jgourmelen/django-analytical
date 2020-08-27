@@ -26,7 +26,7 @@ FACEBOOK_PIXEL_HEAD_CODE = """\
 """
 
 FACEBOOK_PIXEL_BODY_CODE = """\
-<noscript><img height="1" width="1" style="display:none"
+<noscript><img height="1" width="1" style="display:none" alt="Facebook"
   src="https://www.facebook.com/tr?id=%(FACEBOOK_PIXEL_ID)s&ev=PageView&noscript=1"
 /></noscript>
 """
